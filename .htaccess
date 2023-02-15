@@ -1,0 +1,30 @@
+
+RewriteEngine On
+
+
+RewriteRule ^tin-tuc$ index.php?mod=post&action=list
+RewriteRule ^tin-tuc/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+).html$ index.php?mod=post&action=detail&cat_name=$1&slug=$2
+
+
+RewriteRule ^([a-zA-Z0-9_-]+).html$ index.php?mod=page&action=detail&slug=$1
+
+
+RewriteRule ^gio-hang$ index.php?mod=cart&action=detail
+RewriteRule ^thanh-toan$ index.php?mod=cart&action=checkOut
+RewriteRule ^dat-hang-thanh-cong-([0-9]+)$ index.php?mod=cart&action=orderSuccess&id=$1
+RewriteRule ^mua-ngay-([0-9]+)$ index.php?mod=cart&action=buyNow&id=$1
+
+
+RewriteRule ^tim-kiem$ index.php?mod=product&action=search
+RewriteRule ^([a-zA-Z0-9_-]+)$ index.php?mod=product&action=list&slug=$1
+RewriteRule ^([a-zA-Z0-9_-]+)&page=([0-9]*)$ index.php?mod=product&action=list&slug=$1&page=$2
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+).html$ index.php?mod=product&action=detail&cat_name=$1&slug=$2
+
+
+
+
+
+
+
+
+

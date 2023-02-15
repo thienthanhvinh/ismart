@@ -1,0 +1,9 @@
+
+RewriteEngine On
+
+RewriteRule ^post/([a-zA-Z0-9_-]+)$ index.php?mod=post&controller=index&action=$1
+
+
+
+
+

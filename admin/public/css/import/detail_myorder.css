@@ -1,0 +1,82 @@
+.order-title {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 17px;
+    border-bottom: 1px solid black;
+    margin-bottom: 18px;
+    padding-bottom: 7px;
+}
+
+#tbl-info {
+    text-align: center;
+}
+
+#tbl-info td {
+    height: 60px;
+
+}
+#tbl-info td p {
+    margin-top: 11px;
+}
+
+#tbl-info th {
+    text-align: center;
+}
+
+#order-status {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.status p {
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.status  p span {
+    text-transform: lowercase;
+    background-color: yellow;
+}
+.status select {
+    width: 150px;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid rgb(216, 213, 213);
+}
+.status input[type="submit"] {
+    padding: 2px 9px;
+    border-radius: 4px;
+    background-color: rgb(98, 98, 216);
+    color: #fff;
+    margin-left: 10px;
+}
+#tbl-num {
+    width: 500px;
+    text-align: center;
+}
+#tbl-num th {
+    text-align: center;
+}
+
+#order-detail {
+    margin-top: 37px;
+} 
+#order-detail h2 {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 17px;
+    margin-bottom: 20px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid black;
+}
+#tbl-detail thead {
+    background-color: rgb(231, 230, 230);
+}
+#tbl-detail {
+    text-align: center;
+}
+#tbl-detail th {
+    text-align: center;
+}
