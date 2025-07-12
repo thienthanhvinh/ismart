@@ -181,7 +181,7 @@ function searchAction() {
         $data['keyword'] = $keyword;
     
     }else {
-        redirect("http://localhost:8080/unitop.vn/back-end/Php/project/ismart.com/");
+        redirect("http://localhost/ismart.com/");
     }
 
         $page_data = get_page_data();

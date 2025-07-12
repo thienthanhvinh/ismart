@@ -26,7 +26,7 @@
                         <?php echo form_error('content') ?>
                         <label style="margin-top: 20px">Hình ảnh</label>
                         <div id="uploadFile">
-                            <img src="http://localhost:8080/unitop.vn/back-end/Php/project/ismart.com/public/uploads/images/posts/<?php echo $post['image'] ?>" alt="" style="margin:0px; margin-bottom: 20px" name="file">
+                            <img src="http://localhost/ismart.com/public/uploads/images/posts/<?php echo $post['image'] ?>" alt="" style="margin:0px; margin-bottom: 20px" name="file">
                             <input type="file" name="file" id="upload-thumb">
                             <!-- <input type="submit" name="btn-upload-thumb" value="Upload" id="btn-upload-thumb"> -->
                             <!-- <img src="public/images/img-thumb.png"> -->

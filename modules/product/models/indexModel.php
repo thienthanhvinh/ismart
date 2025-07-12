@@ -43,7 +43,7 @@ function get_cat_id($list_cat, $slug) {
     }
 }
 
-function get_url_paging($list_cat, $parent_id = 0, $cat_id_url) {
+function get_url_paging($list_cat, $cat_id_url, $parent_id = 0,) {
     $url = '';
     foreach($list_cat as $item) {
         if($item['parent_id'] == $parent_id) {

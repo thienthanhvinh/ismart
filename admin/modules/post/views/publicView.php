@@ -61,7 +61,7 @@
                                 <tr>
                                     <td><input type="checkbox" name="checkItem[]" class="checkItem" value="<?php echo $post['id'] ?>"></td>
                                     <td><span class="tbody-text"><?php echo $temp ?></h3></span>
-                                    <td><img style="width: 105px; height: 55px;" src="http://localhost:8080/unitop.vn/back-end/Php/project/ismart.com/public/uploads/images/posts/<?php echo $post['image'] ?>" alt=""></td>
+                                    <td><img style="width: 105px; height: 55px;" src="http://localhost/ismart.com/public/uploads/images/posts/<?php echo $post['image'] ?>" alt=""></td>
 
                                     <td class="clearfix">
                                         <div class="tb-title fl-left">

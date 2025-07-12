@@ -33,7 +33,7 @@
                         <label style="margin-top: 20px;">Hình ảnh</label>
                         
                         <div id="uploadFile" style="padding-bottom: 15px">
-                            <img src="http://localhost:8080/unitop.vn/back-end/Php/project/ismart.com/public/uploads/images/products/<?php echo $product_info['thumb'] ?>" alt="" style="margin-bottom: 20px">
+                            <img src="http://localhost/ismart.com/public/uploads/images/products/<?php echo $product_info['thumb'] ?>" alt="" style="margin-bottom: 20px">
                             <input type = "file" name="file" id="upload-thumb">
                             <?php echo form_error('file')?>
                             <!-- <input type="submit" name="btn-upload-thumb" value="Upload" id="btn-upload-thumb"> -->

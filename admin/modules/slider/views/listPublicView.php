@@ -64,7 +64,7 @@
                                     <td style="width: 10%;"><span class="tbody-text" style="margin-left: 15px"><?php echo $temp; ?></span></td>
                                     <td style="width: 18%">
                                         <div class="tbody-thumb" style="width: 120px; height: auto">
-                                            <img src="http://localhost:8080/unitop.vn/back-end/Php/project/ismart.com/public/uploads/images/sliders/<?php echo $item['thumb_slider'] ?>" alt=""  >
+                                            <img src="http://localhost/ismart.com/public/uploads/images/sliders/<?php echo $item['thumb_slider'] ?>" alt=""  >
                                         </div>
                                     </td>
                                     <td style="width: 25%">

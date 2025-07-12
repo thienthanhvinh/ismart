@@ -64,7 +64,7 @@
                                     <td><span class="tbody-text"><?php echo $temp; ?></h3></span>
                                     <td>
                                         <div class="tbody-thumb" style="width: 120px; height: auto">
-                                            <img src="http://localhost:8080/unitop.vn/back-end/Php/project/ismart.com/public/uploads/images/products/<?php echo $item['thumb'] ?>" alt="" >
+                                            <img src="http://localhost/ismart.com/public/uploads/images/products/<?php echo $item['thumb'] ?>" alt="" >
                                         </div>
                                     </td>
                                     <td class="clearfix">

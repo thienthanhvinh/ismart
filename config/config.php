@@ -12,7 +12,7 @@ ob_start();
  * 
  */
 
-$config['base_url'] = "http://localhost:8080/unitop.vn/back-end/Php/project/ismart.com/";
+$config['base_url'] = "http://localhost/ismart.com/";
 
 
 $config['default_module'] = 'home';

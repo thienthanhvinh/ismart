@@ -18,7 +18,7 @@
 $db = array(
     'hostname' => 'localhost',
     'username' => 'root',
-    'password' => '',
+    'password' => 'Thanhvinh123',
     'database' => 'ismart',
 );
 

@@ -77,7 +77,7 @@
                     <tbody>
                         <?php foreach($order_detail as $item) { ?>
                     <tr>    
-                        <td><img src="http://localhost:8080/unitop.vn/back-end/Php/project/ismart.com/public/uploads/images/products/<?php echo $item['thumb'] ?>" alt="" style="width: 90px; height: auto; margin: auto"></td>
+                        <td><img src="http://localhost/ismart.com/public/uploads/images/products/<?php echo $item['thumb'] ?>" alt="" style="width: 90px; height: auto; margin: auto"></td>
                         <td><p style="display: inine-block; margin-top: 15px"><?php echo $item['product_name'] ?></p></td>
                         <td><p style="display: inine-block; margin-top: 15px"><?php echo $item['qty'] ?></p></td>
                         <td><p style="display: inine-block; margin-top: 15px"><?php echo currency_format ($item['price']) ?></p></td>

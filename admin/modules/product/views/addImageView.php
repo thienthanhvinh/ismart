@@ -48,7 +48,7 @@
                             ?>
                             <tr>
                                 <td><p style="margin-top: 25px"><?php echo $temp; ?></p></td>
-                                <td><img src="http://localhost:8080/unitop.vn/back-end/Php/project/ismart.com/public/uploads/images/products/<?php echo $item['image_name'] ?>" alt="" style="width: 100px; height: auto; margin-left: 170px"></td>
+                                <td><img src="http://localhost/ismart.com/public/uploads/images/products/<?php echo $item['image_name'] ?>" alt="" style="width: 100px; height: auto; margin-left: 170px"></td>
                                 <td><p style="margin-top: 25px"><?php echo print_color_name($list_color, $item['color_id']) ?></p></td>
                                 <td><a href="?mod=product&action=deleteImage&id=<?php echo $product_info['product_id']?>&image_id=<?php echo $item['image_id']?>" title="Xoá"><i class="fa fa-trash dlt-img" aria-hidden="true" style="margin-top: 30px"></a></td>
                             </tr>
